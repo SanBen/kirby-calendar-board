@@ -30,7 +30,7 @@ class CalendarboardFieldController extends Kirby\Panel\Controllers\Field {
     $this->field()->check_day($this->model(), $date);
     
     // Go to day edit page
-    go(purl($this->model(), 'year-' . $Date[0] . '/day-' . $date . '/edit/'));  
+    go(purl($this->model(), 'year-' . $Date[0] . '/day-' . $date . '/edit'));  
   }  
 
 }
